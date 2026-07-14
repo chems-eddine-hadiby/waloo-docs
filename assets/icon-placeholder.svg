@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Waloo icon placeholder">
+  <defs>
+    <linearGradient id="g1" x1="88" y1="64" x2="428" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#059669"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="144" y1="160" x2="368" y2="352" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCFCE7"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="120" fill="url(#g1)"/>
+  <rect x="96" y="96" width="320" height="320" rx="88" fill="rgba(255,255,255,0.08)"/>
+  <path d="M147 306L187 196H221L256 275L289 196H325L365 306H330L306 236L276 306H236L206 236L181 306H147Z" fill="url(#g2)"/>
+  <circle cx="256" cy="170" r="24" fill="#F59E0B"/>
+</svg>
+
