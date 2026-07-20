@@ -69,12 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const currentPath = window.location.pathname;
-  const isNestedLocale = currentPath.includes('/fr/') || currentPath.includes('/ar/');
+  const isNestedLocale = currentPath.includes('/fr/') || currentPath.includes('/en/');
   const sitePrefix = isNestedLocale ? '../' : './';
 
   const languageLinks = Array.from(document.querySelectorAll('.nav-link')).filter((link) => {
     const href = link.getAttribute('href') || '';
-    return href.endsWith('/index.html') || href.endsWith('/fr/index.html') || href.endsWith('/ar/index.html');
+    return href.includes('/index.html') && (href.includes('/en/') || href.includes('/fr/') || href === './index.html' || href === '../index.html');
   });
 
   languageLinks.forEach((link) => link.classList.add('lang-pill'));
@@ -105,16 +105,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const left = document.createElement('div');
     left.className = 'footer-brand';
-    left.innerHTML = '<strong>Waloo</strong><span>Local store deals for Algeria — reduce waste, save money.</span>';
+    left.innerHTML = '<strong>Waloo</strong><span>عروض المتاجر المحلية في الجزائر — قلل الهدر، وفّر المال.</span>';
 
     const right = document.createElement('div');
     right.className = 'footer-links';
     right.innerHTML = `
-      <a href="${sitePrefix}terms.html">Terms</a>
-      <a href="${sitePrefix}privacy.html">Privacy</a>
-      <a href="${sitePrefix}contact.html">Contact</a>
-      <a href="${sitePrefix}fr/index.html">FR</a>
-      <a href="${sitePrefix}ar/index.html">AR</a>
+      <a href="${sitePrefix}terms.html">الشروط</a>
+      <a href="${sitePrefix}privacy.html">الخصوصية</a>
+      <a href="${sitePrefix}contact.html">تواصل</a>
+      <a href="${isNestedLocale ? '../' : './en/'}index.html">EN</a>
+      <a href="${isNestedLocale ? '../' : './'}fr/index.html">FR</a>
     `;
 
     footerNav.append(left, right);
