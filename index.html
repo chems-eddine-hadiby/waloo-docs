@@ -5,7 +5,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Waloo هو سوق محلي لاكتشاف العروض القريبة في الجزائر." />
+  <meta property="og:title" content="Waloo — عروض محلية في الجزائر" />
+  <meta property="og:description"
+    content="اكتشف عروض الفائض من المخابز والمقاهي والبقالات القريبة. احجز فوراً واستلم في طريقك." />
+  <meta property="og:image" content="https://waloo-docs.pages.dev/assets/og-image.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://waloo-docs.pages.dev/" />
+  <meta name="twitter:card" content="summary_large_image" />
   <title>Waloo — عروض محلية في الجزائر</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  <link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/index.html" />
+  <link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/index.html" />
+  <link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/index.html" />
+  <link rel="alternate" hreflang="x-default" href="https://waloo-docs.pages.dev/index.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -13,6 +25,27 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
   <script defer src="./script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Waloo",
+    "operatingSystem": "Android, iOS",
+    "applicationCategory": "LifestyleApplication",
+    "description": "سوق محلي لتقليل هدر الطعام في الجزائر. اكتشف العروض، احجز، واستلم.",
+    "url": "https://waloo-docs.pages.dev",
+    "author": {
+      "@type": "Organization",
+      "name": "Waloo",
+      "url": "https://waloo-docs.pages.dev"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "DZD"
+    }
+  }
+  </script>
 </head>
 
 <body dir="rtl">
@@ -20,7 +53,7 @@
   <div class="bg-orb orb-b"></div>
   <header class="site-shell topbar">
     <a class="brand" href="./index.html" aria-label="الصفحة الرئيسية">
-      <img src="./assets/icon-placeholder.svg" alt="" class="brand-mark" />
+      <img src="./assets/favicon.svg" alt="" class="brand-mark" />
       <div><strong>Waloo</strong><span>سوق محلي جزائري</span></div>
     </a>
     <nav class="nav">
@@ -108,6 +141,40 @@
           <h3>استلم بكود OTP</h3>
           <p>اذهب للمتجر في الوقت المحدد. أظهر الكود، استلم، انتهى.</p>
         </article>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="site-shell how-it-works reveal">
+      <div class="section-heading">
+        <p class="eyebrow">أسئلة شائعة</p>
+        <h2>كل ما تحتاج معرفته.</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>هل التطبيق مجاني؟</summary>
+          <p>نعم، تحميل واستخدام Waloo مجاني تماماً. تدفع فقط عند حجز منتج بالأرصدة.</p>
+        </details>
+        <details class="faq-item">
+          <summary>كيف أشحن رصيدي؟</summary>
+          <p>يمكنك الشحن عبر بطاقة CIB أو Edahabia من خلال بوابة Chargily، أو نقداً عند أي وكيل Waloo قريب منك.</p>
+        </details>
+        <details class="faq-item">
+          <summary>في أي ولايات يعمل Waloo؟</summary>
+          <p>Waloo متاح في جميع الولايات التي يوجد فيها متاجر مسجلة. العروض تظهر حسب موقعك الجغرافي.</p>
+        </details>
+        <details class="faq-item">
+          <summary>هل بياناتي آمنة؟</summary>
+          <p>نعم. بياناتك مخزنة بشكل مشفر ولا نبيعها لأي طرف ثالث. راجع سياسة الخصوصية للتفاصيل.</p>
+        </details>
+        <details class="faq-item">
+          <summary>ماذا يحدث إذا لم أستلم في الوقت؟</summary>
+          <p>إذا لم تصل خلال نافذة الاستلام، يُلغى الحجز تلقائياً ويُعاد الرصيد (مع احتمال غرامة بسيطة عند التكرار).</p>
+        </details>
+        <details class="faq-item">
+          <summary>كيف أصبح متجراً أو وكيلاً؟</summary>
+          <p>سجّل في التطبيق واختر دور "متجر" أو "وكيل"، ثم أكمل التحقق KYC بتقديم السجل التجاري ووثيقة الهوية.</p>
+        </details>
       </div>
     </section>
   </main>

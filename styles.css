@@ -124,8 +124,7 @@ button:focus-visible,
   width: 44px;
   height: 44px;
   border-radius: 14px;
-  background: linear-gradient(145deg, #0f172a, #059669);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  object-fit: contain;
 }
 
 .brand strong {
@@ -1353,4 +1352,112 @@ button:focus-visible,
 /* Smooth scroll anchor offset */
 :target {
   scroll-margin-top: 100px;
+}
+
+
+/* FAQ Section */
+.faq-list {
+  display: grid;
+  gap: 12px;
+  max-width: 860px;
+}
+
+.faq-item {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+  transition: box-shadow 300ms var(--ease), border-color 300ms var(--ease);
+}
+
+.faq-item:hover {
+  border-color: rgba(5, 150, 105, 0.15);
+  box-shadow: var(--shadow);
+}
+
+.faq-item[open] {
+  border-color: rgba(5, 150, 105, 0.2);
+  box-shadow: var(--shadow);
+}
+
+.faq-item summary {
+  padding: 20px 24px;
+  font: 700 1.05rem/1.5 'Cairo', sans-serif;
+  color: var(--text);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  transition: background 200ms var(--ease);
+}
+
+.faq-item summary:hover {
+  background: rgba(5, 150, 105, 0.03);
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: '+';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(5, 150, 105, 0.08);
+  color: var(--emerald-strong);
+  font: 700 1.2rem/1 'Cairo', sans-serif;
+  flex-shrink: 0;
+  transition: transform 300ms var(--ease), background 300ms var(--ease);
+}
+
+.faq-item[open] summary::after {
+  content: '−';
+  transform: rotate(180deg);
+  background: rgba(5, 150, 105, 0.14);
+}
+
+.faq-item p {
+  padding: 0 24px 20px;
+  margin: 0;
+  color: var(--muted);
+  font: 400 0.96rem/1.8 'Cairo', sans-serif;
+  animation: faq-reveal 300ms var(--ease);
+}
+
+@keyframes faq-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Skip to content (accessibility) */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  background: var(--emerald);
+  color: white;
+  border-radius: 0 0 12px 12px;
+  font: 700 0.9rem/1 'Cairo', sans-serif;
+  z-index: 100;
+  transition: top 200ms var(--ease);
+}
+
+.skip-link:focus {
+  top: 0;
 }

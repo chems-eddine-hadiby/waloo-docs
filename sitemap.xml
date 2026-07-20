@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- index -->
+    <url>
+        <loc>https://waloo-docs.pages.dev/index.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/index.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/en/index.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/index.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/fr/index.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/index.html"/>
+    </url>
+
+    <!-- features -->
+    <url>
+        <loc>https://waloo-docs.pages.dev/features.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/features.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/features.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/en/features.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/features.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/features.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/fr/features.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/features.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/features.html"/>
+    </url>
+
+    <!-- roles -->
+    <url>
+        <loc>https://waloo-docs.pages.dev/roles.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/roles.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/roles.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/roles.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/en/roles.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/roles.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/roles.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/roles.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/fr/roles.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/roles.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/roles.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/roles.html"/>
+    </url>
+
+    <!-- story -->
+    <url>
+        <loc>https://waloo-docs.pages.dev/story.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/story.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/story.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/story.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/en/story.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/story.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/story.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/story.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/fr/story.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/story.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/story.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/story.html"/>
+    </url>
+
+    <!-- contact -->
+    <url>
+        <loc>https://waloo-docs.pages.dev/contact.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/contact.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/en/contact.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/contact.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/fr/contact.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/contact.html"/>
+    </url>
+
+    <!-- terms -->
+    <url>
+        <loc>https://waloo-docs.pages.dev/terms.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/terms.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/en/terms.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/terms.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/fr/terms.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/terms.html"/>
+    </url>
+
+    <!-- privacy -->
+    <url>
+        <loc>https://waloo-docs.pages.dev/privacy.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/privacy.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/en/privacy.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/privacy.html"/>
+    </url>
+    <url>
+        <loc>https://waloo-docs.pages.dev/fr/privacy.html</loc>
+        <lastmod>2026-07-20</lastmod>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://waloo-docs.pages.dev/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://waloo-docs.pages.dev/en/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://waloo-docs.pages.dev/fr/privacy.html"/>
+    </url>
+
+</urlset>
